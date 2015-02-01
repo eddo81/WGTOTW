@@ -24,7 +24,7 @@ This project uses a SQLite database which can be found via this path:
 Do make sure that you set the correct read/write permissions for the database.
 The database comes pre-populated with some default data. The following route will reset the database if the user is logged in as admin:
 
-	webroot/setup
+	WGTOTW/webroot/setup
 
- 
+
 
