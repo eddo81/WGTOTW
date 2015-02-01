@@ -1,0 +1,311 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(comments.css);
+@import url(form.css);
+@import url(table.css);
+
+body {
+  background-color: #F3F1EA;
+  color: #555;
+  font-family: 'Roboto', arial, sans-serif;
+  overflow-y: scroll;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+hr {
+  border: 0;
+  color: #BDB6AD;
+  background-color: #BDB6AD;
+  height: 1px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+
+#headerbar{
+  background-color: #55463A;
+  padding: 1px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+.headerbarnav{
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden; 
+}
+
+.headerbarnav a{
+  color: #D6CAC1;
+  text-decoration: none;
+  font-size: 0.8em;
+  padding: 10px 0 10px 20px;
+}
+
+.headerbarnav a:hover{
+  color: #FFF;
+}
+
+.nopaddingleft{
+  padding-left: 0 !important; 
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 960px; 
+}
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 3px;
+  left: 110px;
+  font-size: 54px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  font-style: italic;
+  color: #BDB6AD;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+.article{
+  margin: 40px auto 0 auto; 
+  border: 1px solid #BDB6AD;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.articleAnswer{
+  margin-top: 40px; 
+  border: 1px solid #BDB6AD;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  width: 93%;
+
+}
+
+.smallArticle{
+margin: 30px 0;
+padding: 5px 15px;
+margin-right: 1%;
+width: 29%;
+float: left;
+}
+
+.smallArticle h3{
+margin: 10px 0;
+}
+
+.alert{
+  margin: 3% 0;
+}
+
+.success, .error{
+margin: 30px auto;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 15px 25px;
+width: 50%;
+text-align: center;
+}
+
+.success p, .error p{
+font-size: 1.1em;
+}
+
+.success{
+  border: 3px solid #75AA80;
+  color: #75AA80;
+  background-color: #BAE0B9;
+}
+
+.error{
+border: 3px solid #B45211;
+color: #B45211;
+background-color: #E4A561
+}
+
+.question {
+  margin: 20px auto;
+  padding: 0 0 15px 0;
+}
+
+.questionTitle{
+  margin-bottom: 1px;
+}
+
+.questionSubTitle{
+  margin-top: 0;
+  font-size: 0.9em;
+  color: #BDB6AD;
+}
+
+.questionContainer{
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #BDB6AD;
+}
+
+
+/**
+ * Layout for footer
+ */
+.footer {
+  margin-top: 30px;
+  background-color: #D3C7A3;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+  color: #6F5A36;
+  clear: both;
+}
+
+.footer a{
+  color: #6F5A36;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.footer a:hover, .footer a:active{
+  color: #FFF;
+}
+
+.copyright{
+  float: right;
+  font-size: 0.9em;
+  margin: 5px;
+}
+
+.usersummery {
+  float: left;
+  width: 22%;
+  min-width: 200px;   
+  margin: 10px 1%;
+}
+
+.usersummery p {
+margin: 0 0 10px 15px;
+font-size: 0.7em;
+}
+
+.profileLink{
+  color: #0D6A9E;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.profileLink:hover{
+  color: #34A0DD;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearBoth{
+  clear: both;
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+.paddingBottom {
+  padding-bottom: 20px;
+}
+
+.marginRight{
+  margin-right: 5px;
+}
+
+.marginRightBottom{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.margrinFour{
+  margin: 4px;
+}
+
+.marginLeft{
+  margin-left: 15px;
+}
+
+.notop{
+  margin-top: 0;
+}
+
+.marginTop{
+  margin: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #E9E7E0;
+  padding: 15px;
+}
+
+.dashed{
+  border-top: 1px dashed #BDB6AD;
+  padding-top: 25px;
+}
+
+.displayNone{
+  display: none;
+}

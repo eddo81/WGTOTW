@@ -1,0 +1,21 @@
+table {
+  margin: 3% auto;
+  border-collapse: collapse;
+  border-bottom: 1px solid #89D5BD;
+  width: 99%;
+  
+}
+  th, td {
+    color: #999;
+    border: 1px solid #54AC85;
+    padding: 1% 2%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background: #89D5BD;
+    color: #329777;
+    &.last {
+      border-right: none;
+    }
